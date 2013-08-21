@@ -30,6 +30,9 @@ Submit your homeworks using carmen. Most/All other information can be found in t
 **Notes about HomeWorks**
 
 - All submitted work must run on linux machines, avoid using windows specific libraries.
+- All submitted code must follow a simple naming convetion.
+- All submitted code must have your name in it.
+- See homework 1 for an example. 
 
 This material will be challenging. Consider the class like a math or
 physics class. It will require a lot of thinking, staring at the
