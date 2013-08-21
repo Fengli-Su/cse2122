@@ -8,13 +8,14 @@ From the book, page 172, question 8.
 
 The name of the submission should be **homework.cpp**, no numbers, no name, no capital letters.
 
-<p>
+
 All homeworks must have  the following at the top of the submitted file
-    File name: homework-1.cpp
-    Created by: 
-    Created on: 
-    Synopsis:
-</p>
+<ul>
+    <li>File name: homework-1.cpp</li>
+    <li>Created by:</li>
+    <li>Created on:</li> 
+    <li>Synopsis:</li>
+</ul>
 
 
 
