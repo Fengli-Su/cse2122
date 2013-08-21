@@ -5,16 +5,16 @@ layout: default
 
 From the book, page 172, question 8.
 
-**
-The name of the submission shoulf be 'homework.cpp', no numbers, no name, no capital letters.
 
-**
-**All homeworks must have  the following at the top of the submitted file
+The name of the submission should be **homework.cpp**, no numbers, no name, no capital letters.
+
+<p>
+All homeworks must have  the following at the top of the submitted file
     File name: homework-1.cpp
     Created by: 
     Created on: 
     Synopsis:
-**
+</p>
 
 
 
