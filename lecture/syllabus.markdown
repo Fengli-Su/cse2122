@@ -14,7 +14,7 @@ layout: default
 
 - Second midterm: 15%
 
-- Programming assignments: 40% (about one every week)
+- Programming assignments: 30% (about one every week)
 
 - Final exam: 30%
 
@@ -30,6 +30,7 @@ Submit your homeworks using carmen. Most/All other information can be found in t
 **Notes about HomeWorks**
 
 - All submitted work must run on linux machines, avoid using windows specific libraries.
+- Submit only the ".cpp" file.
 - All submitted code must follow a simple naming convetion.
 - All submitted code must have your name in it.
 - See homework 1 for an example. 
