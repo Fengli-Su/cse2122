@@ -15,6 +15,7 @@ layout: default
 - Second midterm: 15%
 
 - Programming assignments: 30% (about one every week)
+- Programming assignments include a small end of semester project.
 
 - Final exam: 30%
 
