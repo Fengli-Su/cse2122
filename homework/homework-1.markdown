@@ -3,15 +3,15 @@ title: Homework 1
 layout: default
 ---
 
-From the book, page 172, question 8.
 
 
-The name of the submission should be **homework.cpp**, no numbers, no name, no capital letters.
+
+The name of the submission should be **homework1.cpp**, no numbers, no name, no capital letters.
 
 
 All homeworks must have  the following at the top of the submitted file
 <ul>
-    <li>File name: homework-1.cpp</li>
+    <li>File name: homework1.cpp</li>
     <li>Created by:</li>
     <li>Created on:</li> 
     <li>Synopsis:</li>
