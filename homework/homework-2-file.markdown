@@ -46,6 +46,6 @@ the first line contains the number of test cases and each consecutive line conta
 
 
 
-Handle errors in the following way: if the user enters a value less than 0 or
+Handle errors in the following way: if the user enters a value (test case in file) less than 0 or
 greater than or equal to 100 (which violates the function's precondition), then
 tell the user that's an "Invalid value".
