@@ -185,7 +185,7 @@ printout `(3.4-(2.6+5))`, which is just what we want.
 
 ## A slight variation: handling other kinds of operators
 
-In Homework 5, you must be able to work with binary and unary
+In Homework 4, you must be able to work with binary and unary
 operators/functions; that is, your tree nodes may have `+`, `-`,
 etc. operators (binary operators), and `log`, `sin`, etc. functions
 (unary functions). If we use the same `print_tree` function with a
@@ -206,7 +206,7 @@ For example, the tree
 
 ...prints as `((4sin)/(4cos))` (do you see why?).
 
-We can fix this by adding another conditional in our code. Homework 5
+We can fix this by adding another conditional in our code. Homework 4
 states that a function like `log` or `sin` has only a left subtree,
 and no right subtree (while operators `+`, `-`, etc. always have
 subtrees on both sides). So, we simply check if we have an operator
