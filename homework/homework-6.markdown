@@ -1,5 +1,5 @@
 ---
-title: Homework 7
+title: Homework 6
 layout: default
 ---
 
