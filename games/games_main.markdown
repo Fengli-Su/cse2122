@@ -11,6 +11,5 @@ Most of the students are not in Computer Science which makes it even more impres
 
 
 <ul>
-    <li>[House Hunters](https://github.com/kateyiannis/houseHunters) Chris Kateyiannis Fall 2014.</li>
-
+<li><a href="https://github.com/kateyiannis/houseHunters">House Hunters</a>Chris Kateyiannis Fall 2014.</li>
 </ul>
