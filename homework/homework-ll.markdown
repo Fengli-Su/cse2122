@@ -26,6 +26,11 @@ class List {
 public:
     Node* first;
 };
+int main()
+{
+	List * myList = new List();
+	...
+	
 {% endhighlight %}
 write a program which implements the function "sorted_insert"
 Sorted insert inserts a new node in sorted linked list in the appropriate place. 
@@ -46,5 +51,8 @@ Be careful of the corner cases.
     <li>If value of the node to be inserted is smaller than value of head node
     then insert the node at start and make it head.</li>
 </ul>
+
+Try to write clean code with multiple functions.  For example you may write  help functions like Length which take the list as input and performs some functions.
+ 
 
 
