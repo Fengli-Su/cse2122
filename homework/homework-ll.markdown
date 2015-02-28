@@ -1,8 +1,8 @@
 ---
-title: Homework LL
+title: Homework Linked List
 layout: default
 ---
-The name of the submission should be **homework-linkedlist.cpp**, no numbers, no name, no capital letters.
+The name of the submission should be **sortedinsert.cpp**, no numbers, no name, no capital letters.
 All homeworks must have  the following at the top of the submitted file
 <ul>
     <li>File name: homework??.cpp</li>
@@ -12,9 +12,9 @@ All homeworks must have  the following at the top of the submitted file
 </ul>
 Skills needed to complete this assignment:
 <ul>
-<li>[Linked List](cse2122/lecture/linked-lists.html)</li>
+<li>[Linked List](/cse2122/lecture/linked-lists.html)</li>
 </ul>
-Given the following classes write a program which implements the function "sorted_insert"
+Given the following classes 
 {% highlight cpp %}
 class Node {
 public:
@@ -27,10 +27,10 @@ public:
     Node* first;
 };
 {% endhighlight %}
-
+write a program which implements the function "sorted_insert"
 Sorted insert inserts a new node in sorted linked list in the appropriate place. 
 
-This is the input to the program is a text file [example.txt](/cse2122/homework/hw_ll.txt)
+The input to the program is a text file [example.txt](/cse2122/homework/hw_ll.txt)
 You do not have to use fileIO you can use < to specify that we want the command immediately before the redirection symbol to get its input from the source specified immediately after the symbol, for instance
 we can run the program as ./a.out < [example.txt](/cse2122/homework/hw_ll.txt).
 
