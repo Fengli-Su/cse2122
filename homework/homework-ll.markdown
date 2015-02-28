@@ -43,7 +43,9 @@ we can run the program as ./a.out < [example.txt](/cse2122/homework/hw_ll.txt).
 Be careful not to type ">" by mistake, or you'll erase the contents of the file you're trying to read from. 
 Your program should recognise the keywords push_back, print and sorted_insert and call appropriate functions. 
 The final print should print in following format. 
+
 5-10-20-25-30-40-45
+Please do not print anything else other than the "-" separated linked list.
 
 Be careful of the corner cases. 
 <ul>
