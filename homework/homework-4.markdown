@@ -144,9 +144,10 @@ about this, feel free to ask me.
 
 You need to download some files (.cpp files and .h files) and
 load these as your CodeBlocks/Visual Studio/Xcode "project."
+Create a single project and all the files to it. 
 
 Here is a ZIP package with all the files you need:
-[hw4.zip](/cse2122/homework/hw4.zip)
+[tree_hw.zip](/cse2122/homework/hw4.zip)
 
 In there you'll also find `main.cpp` &mdash; use that file to begin
 writing your own code. You'll see some instructions in the file. In
@@ -294,7 +295,7 @@ When you give me your code, you only need to send me `main.cpp`,
 unless you happened to have modified other files as well.
 The test cases are 
 <ul>
-<li>`3.4-(2.6+5.0)`<\li>
-<li>`sin(-1.0)*2.0`<\li>
-<li>`-9.4^log(exp(cos(4.5)-2.3+3.5))`<\li>
+<li>`3.4-(2.6+5.0)`</li>
+<li>`sin(-1.0)*2.0`</li>
+<li>`-9.4^log(exp(cos(4.5)-2.3+3.5))`</li>
 </ul>
