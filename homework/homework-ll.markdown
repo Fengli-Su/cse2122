@@ -33,7 +33,7 @@ int main()
 	
 {% endhighlight %}
 Write a program which implements the function "sorted_insert" as discussed in class.
-Sorted insert inserts a new node in sorted linked list in the appropriate place. 
+**Sorted insert** inserts a new node in sorted linked list in the appropriate place. 
 
 The input to the program is a text file [example.txt](/cse2122/homework/hw_ll.txt)
 You do not have to use fileIO you can use < to specify that we want the command immediately before the redirection symbol to get its input from the source specified immediately after the symbol, for instance
@@ -41,7 +41,7 @@ we can run the program as ./a.out < [example.txt](/cse2122/homework/hw_ll.txt).
 
 
 Be careful not to type ">" by mistake, or you'll erase the contents of the file you're trying to read from. 
-Your program should recognise the keywords **push_back**, **print** and **sorted_insert** and call appropriate functions. 
+Your program should recognise the keywords **push_back**, **print**, **quit** and **sorted_insert** and call appropriate functions. 
 The final print should print in following format. 
 
 5-10-20-25-30-40-45

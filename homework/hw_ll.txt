@@ -13,3 +13,4 @@ sorted_insert
 sorted_insert
 5
 print
+quit
