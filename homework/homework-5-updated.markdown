@@ -102,10 +102,13 @@ implementation. Here are the test cases, please ONLY output using `print` the re
 You may hardcode these test cases.
 
 Define the following in main, 
+
 	- Rational a(5/2);
 	- Rational b (-6/3)
 	- Rational c (4)
+	
 Run the following tests
+
 	- a - b
 	- b * c
 	- a / c
