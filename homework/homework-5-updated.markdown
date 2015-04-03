@@ -103,8 +103,10 @@ You may hardcode these test cases.
 
 Define the following in main, 
 
-	- Rational a(5/2);
+	- Rational a(5/2)
+	
 	- Rational b (-6/3)
+	
 	- Rational c (4)
 	
 Run the following tests
