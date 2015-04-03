@@ -26,7 +26,7 @@ We want to store rational numbers in *canonical* form, meaning the
 rational number 9/12 would be stored as 3/4 and 25/5 would be stored
 as 5/1. This is discussed more below.
 
-**Constructors
+**Constructors**
 A principle of abstract data type construction is that constructors
 must be present to create objects with any legal values. You should
 provide constructors to make objects out of pairs of `int` values
@@ -46,21 +46,13 @@ change its values (rationals will be "immutable"). For example, here
 is what the `add` (`+`) function header looks like:
 
 {% highlight cpp %}
-Rational add(Rational &other)
-{
-    int n, d;
-    n = ...
-    // ...
-    return Rational(n, d);  // return a different rational number
-}
-
-Rational Rational::operator+ (Rational &rhs)
+Rational Rational::operator+ (Rational &other)
 {
     ...
 }
 {% endhighlight %}
 
-The function above can be understood in the following way. The `add`
+The function above can be understood in the following way. The `add` (`+`)
 function is a member function of class `Rational` (because it will be
 somewhere inside the class definition, which is not shown here), and
 it receives as its single parameter a reference to an instance of the
@@ -108,11 +100,11 @@ Provide a `main` function that thoroughly tests your class
 implementation. Here are the test cases, please ONLY output using `print` the results of these tests.
 You may hardcode these test cases.
 
-5/2 - 3/4
-3 * 6/3
--4 / 2
-4/2 + 3
-8/16 < 4/3 (For this test case print TRUE or FALSE for the condition.)
+- 5/2 - 3/4
+- 3 * 6/3
+- -4 / 2
+- 4/2 + 3
+- 8/16 < 4/3 (For this test case print TRUE or FALSE for the condition.)
 
 
 
