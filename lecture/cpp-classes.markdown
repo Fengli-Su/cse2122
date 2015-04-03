@@ -2,7 +2,7 @@
 title: C++ classes
 layout: default
 ---
-
+Updated: 4/3/2015
 A C++ class is a way of putting together data into a single object.
 For instance,
 {% highlight cpp %}
@@ -90,7 +90,7 @@ public:
     bool contains(Point & q);
 };
 
-Circle::contains(Point & q)
+bool Circle::contains(Point & q)
 {
   double dist = compute_distance(center, q);
   if (dist <= radius) 
