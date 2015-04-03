@@ -27,6 +27,7 @@ rational number 9/12 would be stored as 3/4 and 25/5 would be stored
 as 5/1. This is discussed more below.
 
 **Constructors**
+
 A principle of abstract data type construction is that constructors
 must be present to create objects with any legal values. You should
 provide constructors to make objects out of pairs of `int` values
@@ -35,7 +36,7 @@ also a rational number, as in 2/1 or 17/1, you should provide a
 constructor with a single `int` parameter, which just sets the
 numerator to the value of the parameter and the denominator to 1.
 
-Use operator overloading to implement `add` (`+`), `sub` (`-`), `mul` (`*`), `div` (`/`), `less` (`<`) and `neg` (`-`). 
+Use **operator overloading** to implement `add` (`+`), `sub` (`-`), `mul` (`*`), `div` (`/`), `less` (`<`) and `neg` (`-`). 
 
 Also provide a member function `print` that simply prints the rational
 number in a format like `-9/13`.
@@ -100,11 +101,16 @@ Provide a `main` function that thoroughly tests your class
 implementation. Here are the test cases, please ONLY output using `print` the results of these tests.
 You may hardcode these test cases.
 
-- 5/2 - 3/4
-- 3 * 6/3
-- -4 / 2
-- 4/2 + 3
-- 8/16 < 4/3 (For this test case print TRUE or FALSE for the condition.)
+Define the following in main, 
+- Rational a(5/2);
+- Rational b (-6/3)
+- Rational c (4)
+Run the following tests
+- a - b
+- b * c
+- a / c
+- a + c
+- b < c (For this test case print TRUE or FALSE for the condition.)
 
 
 
