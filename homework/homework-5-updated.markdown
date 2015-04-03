@@ -109,11 +109,11 @@ Define the following in main,
 	
 Run the following tests
 
-	- a - b
-	- b * c
-	- a / c
-	- a + c
-	- b < c (For this test case print TRUE or FALSE for the condition.)
+	1. a - b
+	2. b * c
+	3. a / c
+	4. a + c
+	5. b < c (For this test case print TRUE or FALSE for the condition.)
 
 
 
