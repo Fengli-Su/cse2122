@@ -444,6 +444,7 @@ protected:
     double var_2;
 public:
     virtual void print(){cout <<"var1 "<< var_1 <<",var2 "<<var_2<<endl;}
+	//Constructor
     Base(int _var_1=-1, double _var_2=-2.0): var_1(_var_1), var_2(_var_2){
     cout <<"Base constructor."<<endl;}
 };
@@ -453,6 +454,7 @@ public:
     void print(){cout <<"var1 "<< var_1
     <<",var2 "<<var_2
     <<",var3 "<<derived_var_1<<endl;}
+	//Constructor
     Derived_1(int _var_1=-1, double _var_2=-2.0, int _var_3=3)
     : Base(_var_1, _var_2), derived_var_1(_var_3){
     cout <<"Default constructor."<<endl;}

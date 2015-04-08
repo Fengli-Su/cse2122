@@ -99,12 +99,13 @@ positive. (So 5/-2 should be saved as -5/2.)
 
 Provide a `main` function that thoroughly tests your class
 implementation. Here are the test cases, please ONLY output using `print` the results of these tests.
+(Exception being the less than or greater than tests, where you can use cout to print TRUE or FALSE.)
 You may hardcode these test cases.
 
 Define the following in main, 
 
-	1. Rational a(5/2)
-	2. Rational b (-6/3)
+	1. Rational a (5,2)
+	2. Rational b (-6,3)
 	3. Rational c (4)
 	
 Run the following tests
@@ -113,7 +114,8 @@ Run the following tests
 	2. b * c
 	3. a / c
 	4. a + c
-	5. b < c (For this test case print {You may use cout for this case instead of the print function} TRUE or FALSE for the condition.)
+	5. b < c (For this test case print {You may use cout for this case instead of the print function}
+	TRUE or FALSE for the condition.)
 
 
 
