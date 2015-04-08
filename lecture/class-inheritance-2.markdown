@@ -416,6 +416,25 @@ MoneyMarketAccount::MoneyMarketAccount(string _owner, double _balance)
 *In order to call the parent's constructor, we use the `:` followed by
 the parent's constructor function call (e.g. `BankAccount(_owner)`).*
 
+** Default values for constructor parameters ** 
+It is good practice to have a class constructor that sets default parameters, 
+here is an example. 
+{% highlight cpp %}
+class Base{
+public:
+    int var_1;
+    double var_2;
+
+    Base(int _var_1=-1, double _var_2=-2.0): var_1(_var_1), var_2(_var_2){
+    cout <<"base class constructor.\n";
+    cout <<"var_1 : " << var_1 <<", var_2 : "<< var_2<< endl;}
+};
+int main(){
+ Base b1;
+ Base b2(10);
+ Base b3(10.8, 30.5);
+}
+{% endhighlight %}
 ## Public and private data and member functions
 
 C++ allows a programmer to protect data and member functions in a class from

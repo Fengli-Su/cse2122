@@ -113,7 +113,7 @@ Run the following tests
 	2. b * c
 	3. a / c
 	4. a + c
-	5. b < c (For this test case print TRUE or FALSE for the condition.)
+	5. b < c (For this test case print {You may use cout for this case instead of the print function} TRUE or FALSE for the condition.)
 
 
 
