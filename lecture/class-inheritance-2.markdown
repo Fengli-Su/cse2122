@@ -417,6 +417,7 @@ MoneyMarketAccount::MoneyMarketAccount(string _owner, double _balance)
 the parent's constructor function call (e.g. `BankAccount(_owner)`).*
 
 **Default values for constructor parameters** 
+
 It is good practice to have a class constructor that sets default parameters, 
 here is an example. 
 {% highlight cpp %}
@@ -433,6 +434,41 @@ int main(){
  Base b1;
  Base b2(10);
  Base b3(10.8, 30.5);
+}
+{% endhighlight %}
+Here is another example, what does this print and why ?
+{% highlight cpp %}
+class Base{
+protected:
+    int var_1;
+    double var_2;
+public:
+    virtual void print(){cout <<"var1 "<< var_1 <<",var2 "<<var_2<<endl;}
+    Base(int _var_1=-1, double _var_2=-2.0): var_1(_var_1), var_2(_var_2){
+    cout <<"Base constructor."<<endl;}
+};
+class Derived_1: public Base{
+public:
+    int derived_var_1;
+    void print(){cout <<"var1 "<< var_1
+    <<",var2 "<<var_2
+    <<",var3 "<<derived_var_1<<endl;}
+    Derived_1(int _var_1=-1, double _var_2=-2.0, int _var_3=3)
+    : Base(_var_1, _var_2), derived_var_1(_var_3){
+    cout <<"Default constructor."<<endl;}
+};
+int main(){
+ Base b1;
+ Base b2(10);
+ Base b3(10.8, 30.5);
+ Derived_1 d1;
+ Derived_1 d2(10, 20, 30);
+ //print
+ b1.print();
+ b2.print();
+ b3.print();
+ d1.print();
+ d2.print();
 }
 {% endhighlight %}
 ## Public and private data and member functions
