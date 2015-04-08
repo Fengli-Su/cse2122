@@ -42,7 +42,7 @@ But that seems like a significant failure of OO to model the real
 world.
 
 For yet another alternative, the `set_major_axis` and `set_minor_axis`
-functions can be virtual (not pure virtual):
+functions can be virtual (not pure virtual, WHY ??):
 
 ![Circle-Ellipse diagram](/cse2122/images/circle-ellipse-3.png "Circle-Ellipse diagram")
  
