@@ -416,7 +416,7 @@ MoneyMarketAccount::MoneyMarketAccount(string _owner, double _balance)
 *In order to call the parent's constructor, we use the `:` followed by
 the parent's constructor function call (e.g. `BankAccount(_owner)`).*
 
-** Default values for constructor parameters ** 
+**Default values for constructor parameters** 
 It is good practice to have a class constructor that sets default parameters, 
 here is an example. 
 {% highlight cpp %}
