@@ -25,15 +25,15 @@ variable in C++ is a variable of a certain type. We have the following types
 available to us:
 
 - `int` for integers (..., -2, -1, 0, 1, 2, ...)
-
+- `short`
+- `float`
 - `double` for "floating point" values (i.e. decimal values like -0.5
   or 1.23040E-23)
-
 - `string` for "strings" (i.e. text)
- 
 - `bool` for true/false values
+- `char`
+- `long`
 
-- and some others...
 
 Variables in C++ are typed for two reasons: (1) programs can be executed more
 efficiently if the type is known beforehand and need not be determined based on
