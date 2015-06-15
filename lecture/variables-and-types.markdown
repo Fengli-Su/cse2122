@@ -44,8 +44,6 @@ ensure that you are using variables the right way by checking if you are using
 values of the right type. For example, trying to save a string inside an
 integer type of variable results in an error.
 
-[SLEEP CHECK](http://www.cse.ohio-state.edu/~bhattaca/src/code01.cpp)
-
 ## Overflow and underflow
 
 Computers are finite machines, so they cannot store arbitrarily large values or
@@ -68,10 +66,10 @@ program.
 - `char` can store values between -127 and 128 (signed) or between 0
   and 255 (unsigned)
 
-- `short` can store values between -32767 and 32767 (signed) or
+- `short` can store values between -32768 and 32767 (signed) or
   between 0 and 65535 (unsigned)
 
-- `int` can store values between -2147483647 and 2147483647 (signed)
+- `int` can store values between -2147483648 and 2147483647 (signed)
   or between 0 and 4294967295
 
 - `long` is the same as `int` (on many computers)
@@ -308,4 +306,20 @@ Here is an example:
     cout << x << endl;        // still original
 }
 cout << "goodbye" << endl;    // no more x
+{% endhighlight %}
+
+
+## Left Shift and Right Shift Operators (>> and <<)
+{% highlight cpp %}
+#include <iostream>
+#include <bitset>
+
+int main (){
+  short short1 = 11;
+  std::bitset<16> bitset1{short1}; // initialization 
+  std::cout <<"bitset 11: "<< bitset1 << std::endl;
+  bitset1 = bitset1 << 1;
+  std::cout <<"left shift, bitset 11: "<< bitset1 << std::endl;
+  return 0;
+}
 {% endhighlight %}

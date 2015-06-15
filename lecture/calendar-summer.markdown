@@ -5,7 +5,7 @@ title: Course calendar
 
 Text: "Problem Solving with C++" by Walter Savitch, 8th edition.
 
-Mainly notes supplied by me. 
+You will have to take notes. 
 
 Summer Calender.
 
@@ -15,7 +15,7 @@ Summer Calender.
     - Arrays. 
     - Strings.
     - Sorting searching. 
-* Week 2,3,4: 
+* Week 2,3,4 (Elementary Data Structures): 
     - Lists
     - Stacks
     - Queues
