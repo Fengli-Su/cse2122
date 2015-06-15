@@ -11,16 +11,10 @@ layout: default
 ## Grading
 
 - First midterm: 15%
-
 - Second midterm: 15%
-
 - Programming assignments: 30% (about one every week)
-- Programming assignments include a small end of semester project.
-
 - Final exam: 30%
-
 - Class participation: 10 %
-
 You can see your grades on Carmen.
 
 ## Homeworks
