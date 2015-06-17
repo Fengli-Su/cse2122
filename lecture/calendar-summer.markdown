@@ -11,7 +11,8 @@ Summer Calender.
 
 * Week 1:
     - Intro to C++, set up programming env.
-    - Primitive types.
+    - Primitive types. 
+    -- xor, shift ops.
     - Arrays. 
     - Strings.
     - Sorting searching. 
