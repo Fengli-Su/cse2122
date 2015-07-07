@@ -197,7 +197,7 @@ their parameters (`val1` and/or `val2`).
 
 Your program must support the following operators: `+`, `-`, `*`, `/`,
 and `^` (e.g. `3^2` equals `9`). Your program must also support the
-following functions: `sin`, `cos`, `tan`, `log`, `abs`. Add support
+following functions: `sin`, `cos`, `tan`, `log`, `abs`,`exp`. Add support
 for more functions if you wish.
 
 ## User interface
