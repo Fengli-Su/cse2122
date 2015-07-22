@@ -36,7 +36,7 @@ also a rational number, as in 2/1 or 17/1, you should provide a
 constructor with a single `int` parameter, which just sets the
 numerator to the value of the parameter and the denominator to 1.
 
-Use **operator overloading** to implement `add` (`+`), `sub` (`-`), `mul` (`*`), `div` (`/`), `less` (`<`) and `neg` (`-`). 
+Use **operator overloading** to implement `add` (`+`), `sub` (`-`), `mul` (`*`), `div` (`/`) and `less` (`<`). 
 
 Also provide a member function `print` that simply prints the rational
 number in a format like `-9/13`.
