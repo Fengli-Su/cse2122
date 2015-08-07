@@ -540,12 +540,31 @@ int main()
 }
 {% endhighlight %}
 
+## Example 13 - Initializations
+
+// Initializer syntax
+    std::vector<int> vec2 { 11, 22, 33, 44, 55 };
+
+    // Create 10 empty string (initialized with value = T())
+    std::vector<std::string> vec3(10);
+
+    // Create 10 items and initialize it with value 55
+    std::vector<int> vec4(10, 55);
+
+    // Fill vector using reverse iterator
+    std::vector<int> vec5(vec2.rbegin(), vec2.rend());
+
+    // Using copy constructor
+    std::vector<int> vec6 = vec5;
+	
+	
 ## Strings are (just like) vectors
 
 Interestingly enough, strings are just vectors of `char` values (more
 or less).  We can use the same vector functions on strings
 (mostly). For example, we can ask a string its size
 (`mystring.size()`), reverse it (`mystring.reverse()`), etc.
+
 
 ## Using 2D vectors
 
