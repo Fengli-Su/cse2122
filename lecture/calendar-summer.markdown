@@ -5,26 +5,26 @@ title: Course calendar
 
 Text: "Problem Solving with C++" by Walter Savitch, 8th edition.
 
-You will have to take notes. 
+You will have to take notes. Some hand-outs will be given in class. Not available online. 
 
 Summer Calender.
 
-* Week 1:
+* Week 1,2:
     - Intro to C++, set up programming env.
     - Primitive types. 
     -- xor, shift ops.
     - Arrays. 
     - Strings.
     - Sorting searching. 
-* Week 2,3,4 (Elementary Data Structures): 
+* Week 3,4,5 (Elementary Data Structures): 
     - Lists
     - Stacks
     - Queues
     - Binary trees
     - Binary search trees
-* Week 5: 
+* Week 6,: 
     - Maps, sets 
     - Hash Tables
-* Week 6,7: 
+* Week rest: 
     - Object oriented prog
     - Polymorphism
