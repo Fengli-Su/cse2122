@@ -4,6 +4,7 @@
 //Synopsis: majorityElement returns the majority element of a non-empty array, assuming it exists. 
 //For CSE 2122 at Ohio State
 
+//NOTES: compile using g++ -std=c++11 majorityElement.cpp 
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -14,18 +15,16 @@ int majorityElement(vector<int>& nums) {
     }
 int main(){	
 	vector <int> a = { 1, 2, 3, 3, 3 }; 
-	//vector <int> b = {}; NOT A REQUIRED TEST 
 	vector <int> c = { 1870 };
 	vector <int> d = { 4, 5, 4 };
 	vector <int> e = { 5, 5, 5, 5, 1, 2, 1 };
-	vector <int> f = { 6, 7, 7, 7, 6 };
-
-	cout << majorityElement(a) << endl; //3
-	//cout << majorityElement(b) << endl; //Error message
-	cout << majorityElement(c) << endl; //1870
-	cout << majorityElement(d) << endl; //4
-	cout << majorityElement(e) << endl; //5
-	cout << majorityElement(f) << endl; //7
+	vector <int> f = { 6, 7, 7, 7, 6, 6, 6 };
+	
+	cout <<  ((majorityElement(a) == 3) ? "pass" : "fail : a") << endl;
+	cout << (majorityElement(c) == 1870 ? "pass" : "fail : c")<< endl;
+	cout << (majorityElement(d) == 4 ? "pass" : "fail : d")<< endl;
+	cout << (majorityElement(e) == 5 ? "pass" : "fail : e")<< endl;
+	cout << (majorityElement(f) == 6 ? "pass" : "fail : f")<< endl;
 	return 0;
 }
 
