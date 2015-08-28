@@ -24,3 +24,6 @@ All homeworks must have  the following at the top of the submitted file
  // Write your solution here.
     }
 {% endhighlight %}
+
+Here is the file, you just have to fill in the function. 
+[hw_1](/cse2122/homework/majorityElement.cpp)
