@@ -26,9 +26,10 @@ Choose one of these recommended options:
 
 <iframe src="http://player.vimeo.com/video/21522534?title=0&byline=0&portrait=0" width="600" height="450" frameborder="0"></iframe>
 
+
 To get started with c++11. 
 go to settings in CodeBlocks and mark c++11.
-[settings](/cse2122/images/CodeBlocks_compiler_settings.PNG)
+[Settings](/cse2122/images/CodeBlocks_compiler_settings.PNG)
 
 ## Visual Studio Express
 HOW TO RUN A PROGRAM USING VISUAL STUDIO.
