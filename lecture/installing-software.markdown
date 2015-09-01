@@ -41,7 +41,8 @@ Detailed Instructions:
  
  - Create a new "empty project"
  - Give it a name and save it. 
- - ![Left Click on SourceFiles](/cse2122/images/addAfile.PNG)
+ - Left Click on SourceFiles
+ - ![Left Click on SourceFiles](/cse2122/images/addAfile.PNG =250x)
  - Add a new file called Source.cpp You can give it any name.
  - Right Click on the "project" go to "properties" and do the following change [System->SubSystem](/cse2122/images/setSubSystem.png)
  - Press Build to Build the program, solve the errors
