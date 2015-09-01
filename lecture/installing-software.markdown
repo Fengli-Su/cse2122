@@ -29,13 +29,21 @@ Choose one of these recommended options:
 ## Visual Studio Express
 
 [Go to this webpage](http://www.microsoft.com/express/Downloads/#2010-Visual-CPP),
-then click "Visual C++ 2010 Express" and click Install Now,
-then "Run" the file that begins downloading.
+then click "Express Edition (Express for Desktop)" and click Install Now,
+then "launch" the file that begins downloading.
 
 The Microsoft website may look a little different in the video, but the steps for configuring Visual Studio Express 
 are still the same.
 
 <iframe src="http://player.vimeo.com/video/21524538?title=0&byline=0&portrait=0" width="600" height="450" frameborder="0"></iframe>
+Detailed: 
+- Create a new "empty project"
+- Give it a name and save it. 
+- [Left Click on ](/cse2122/images/addAfile.png)
+- Add a new file called Source.cpp You can give it any name.
+- Right Click on the "project" go to "properties" and do the following change [System->SubSystem](/cse2122/images/setSubSystem.png)
+- Press Build to Build the program, solve the errors
+- Press Debug or Ctrl-f5 to run the program. Ctrl-f5 will show you the results for the program. 
 
 ## Mac OS X
 
