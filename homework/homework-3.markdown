@@ -8,12 +8,12 @@ From the book, page 440, question 13.
 
 Skills needed to complete this assignment:
 
-  - Using [conditionals](/cse230/lecture/conditionals.html) and
+  - Using [conditionals](/cse2122/lecture/conditionals.html) and
     [loops](/cse230/lecture/loops.html)
 
-  - Writing [functions](/cse230/lecture/functions.html)
+  - Writing [functions](/cse2122/lecture/functions.html)
 
-  - Storing values in [vectors](/cse230/lecture/vectors.html), and
+  - Storing values in [vectors](/cse2122/lecture/vectors.html), and
     representing 2D matrices in 1D vectors
 
 The mathematician
