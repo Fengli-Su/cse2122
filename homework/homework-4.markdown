@@ -1,5 +1,5 @@
 ---
-title: Homework 3
+title: Homework 
 layout: default
 ---
 
@@ -147,7 +147,7 @@ load these as your CodeBlocks/Visual Studio/Xcode "project."
 Create a single project and all the files to it. 
 
 Here is a ZIP package with all the files you need:
-[tree_hw.zip](/cse2122/homework/hw4.zip)
+[tree_hw.zip](/cse2122/homework/hw4_updated_10_21_15.zip)
 
 In there you'll also find `main.cpp` &mdash; use that file to begin
 writing your own code. You'll see some instructions in the file. In
@@ -197,7 +197,7 @@ their parameters (`val1` and/or `val2`).
 
 Your program must support the following operators: `+`, `-`, `*`, `/`,
 and `^` (e.g. `3^2` equals `9`). Your program must also support the
-following functions: `sin`, `cos`, `tan`, `log`, `abs`,`exp`. Add support
+following functions: `sin`, `cos`, `tan`, `log`,`exp`. Add support
 for more functions if you wish.
 
 ## User interface
