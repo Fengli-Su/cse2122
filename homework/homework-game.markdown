@@ -1,30 +1,74 @@
 ---
-title: Presentation
+title: Homework 7
 layout: default
 ---
-
-
-Skills needed to complete this assignment:
 
   - Creating classes and using object-oriented program design
     ([lecture notes (part 1)](/cse2122/lecture/classes-and-object-orientation.html)
     and
     [lecture notes (part 2)](/cse2122/lecture/classes-and-object-orientation-2.html))
 
-  - Using polymorphism ([lecture notes](/cse2122/lecture/polymorphism.html))
-
-  - Use of maps and sets to store pointers
+  - Use of maps to store pointers
     ([lecture notes](/cse2122/lecture/maps-sets-etc.html))
+  - Maps help file discussed in class.
 
   - Splitting code into several files
     ([lecture notes](/cse2122/lecture/splitting-code.html))
-    
-This assignment extends Homework 7. Ideally, you will start with your
-HW 7 code and extend it, so that you have the experience of adapting
-existing code (it's more challenging than starting over). I won't be
-checking if you did start with your prior code or did not, however.
+  - For Part 2 (homewoork8)  please look at 
+    ([lecture notes](/cse2122/homework/homework-8.html))
 
-Add an `Agent` class that, at least, has a pure virtual function `bool
+Make a class called `Room` and a `main()` function that allow a user to "walk
+through a maze." Here is an example interaction:
+
+<pre>
+You are in the Garden. The trees and shrubs appear to be resilient to
+decades of neglect but the flowerbeds all withered away long ago.
+
+There is an exit to North (Kitchen) and East (Library).
+
+Which exit? (or 'quit'): north
+
+You move to the North...
+
+You are in the Kitchen. Knives, pots, pans, and other kitchenware
+dangle over the island like some kind of metallic chandelier.
+
+There is an exit to North (Hallway), East (Library), and South
+(Garden).
+
+Which exit? (or 'quit'): west
+
+There is nothing over there.
+
+Which exit? (or 'quit'): east
+
+You move to the East...
+</pre>
+
+The `Room` class should have at least these methods:
+
+* a constructor that sets the `name` and `description`
+* `string getName()`
+* `string getDescription()`
+* `void link(string direction, Room *r)` -- establish a link between rooms, this is essentially "insert" into MAP. 
+* `Room *getLinked(string direction)` -- get the room linked in some direction, this is essentially "find" in a MAP
+* `void printLinked()` -- print all rooms linked to this room, this is essentially "traverse" a MAP.
+
+You should support room links such as  'North', 'South', 'out the window'. Use a map (key is the direction, a string;
+value is the `Room` pointer).
+
+You can establish the maze in the code (in the `main()` function
+probably); the maze need not be designed by the user interactively
+(that would be slightly harder).
+
+There is no particular need for polymorphism in this program's code,
+but you should use `private` and `public` data/methods in your class
+(make a meaningful separation). Also, split your code into three
+files: `room.h`, `room.cpp`, and `main.cpp`.
+
+Once you have set up the maze, set up the Thing class.
+
+Next, add an `Agent` class that, at least, has a pure virtual function `bool
 act()` that must be implemented in subclasses. Make at least one
 subclass for monsters (e.g. a `Grue` class), and another subclass for
 the player (a subclass named `Player`). Update your `main()` function

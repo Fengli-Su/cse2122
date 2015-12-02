@@ -49,9 +49,9 @@ The `Room` class should have at least these methods:
 * a constructor that sets the `name` and `description`
 * `string getName()`
 * `string getDescription()`
-* `void link(string direction, Room *r)` -- establish a link between rooms
-* `Room *getLinked(string direction)` -- get the room linked in some direction
-* `void printLinked()` -- print all rooms linked to this room
+* `void link(string direction, Room *r)` -- establish a link between rooms, this is essentially "insert" into MAP. 
+* `Room *getLinked(string direction)` -- get the room linked in some direction, this is essentially "find" in a MAP
+* `void printLinked()` -- print all rooms linked to this room, this is essentially "traverse" a MAP.
 
 You should support room links such as  'North', 'South', 'out the window'. Use a map (key is the direction, a string;
 value is the `Room` pointer).
