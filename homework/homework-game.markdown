@@ -2,7 +2,7 @@
 title: Homework 7
 layout: default
 ---
-
+  - The design for the game and more information can be found at [Game Design](/cse2122/lecture/game-design.html)
   - Creating classes and using object-oriented program design
     ([lecture notes (part 1)](/cse2122/lecture/class-inheritance.html)
     and
